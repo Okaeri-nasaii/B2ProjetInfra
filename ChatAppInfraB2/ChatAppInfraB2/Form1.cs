@@ -18,7 +18,7 @@ namespace ChatAppInfraB2
         public Form1()
         {
             InitializeComponent();
-            // Load(@"..\..\.env");
+            Load(@"..\..\.env");
         }
         public static void Load(string filePath)
         {

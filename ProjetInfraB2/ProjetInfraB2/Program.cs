@@ -80,7 +80,7 @@ namespace ConsoleApplication1
 
                 if (flag == true)
                 {
-                    Console.WriteLine(msg);
+                
                     broadcastBytes = Encoding.ASCII.GetBytes(uName + " says : " + msg);
                     msg = "";
                 }
