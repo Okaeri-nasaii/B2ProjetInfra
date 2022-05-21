@@ -9,6 +9,7 @@ namespace ConsoleApplication1
     class Program
     {
         public static Hashtable clientsList = new Hashtable();
+        public static int users = 0;
 
         public static string port = "8888";
         public static void Load(string filePath)
@@ -26,7 +27,9 @@ namespace ConsoleApplication1
                 {
                     if (parts[1] != "")
                     {
-                        port = parts[1];
+                        port = parts[1].Substring(0, 4);
+                        Console.WriteLine(port);
+                 
                     }
                 }
             }
@@ -56,9 +59,10 @@ namespace ConsoleApplication1
 
                 clientsList.Add(dataFromClient, clientSocket);
 
+                
                 broadcast(dataFromClient + " Joined ", dataFromClient, false);
-
                 Console.WriteLine(dataFromClient + " Joined chat room ");
+                Console.WriteLine("Number of users connected : " + clientsList.Count);
                 handleClinet client = new handleClinet();
                 client.startClient(clientSocket, dataFromClient, clientsList);
             }
@@ -123,21 +127,24 @@ namespace ConsoleApplication1
 
             while ((true))
             {
-                try
+                if (bytesFrom.Length != 0)
                 {
-                    requestCount = requestCount + 1;
-                    NetworkStream networkStream = clientSocket.GetStream();
-                    networkStream.Read(bytesFrom, 0, bytesFrom.Length);
-                    dataFromClient = System.Text.Encoding.ASCII.GetString(bytesFrom);
-                    dataFromClient = dataFromClient.Substring(0, dataFromClient.IndexOf("$"));
-                    Console.WriteLine("From client - " + clNo + " : " + dataFromClient);
-                    rCount = Convert.ToString(requestCount);
+                    try
+                    {
+                        requestCount = requestCount + 1;
+                        NetworkStream networkStream = clientSocket.GetStream();
+                        networkStream.Read(bytesFrom, 0, bytesFrom.Length);
+                        dataFromClient = System.Text.Encoding.ASCII.GetString(bytesFrom);
+                        dataFromClient = dataFromClient.Substring(0, dataFromClient.IndexOf("$"));
+                        Console.WriteLine("From client - " + clNo + " : " + dataFromClient);
+                        rCount = Convert.ToString(requestCount);
 
-                    Program.broadcast(dataFromClient, clNo, true);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.ToString());
+                        Program.broadcast(dataFromClient, clNo, true);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.ToString());
+                    }
                 }
             }//end while
         }//end doChat

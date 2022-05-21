@@ -97,5 +97,11 @@ namespace ChatAppInfraB2
             serverStream.Flush();
             msg();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            clientSocket.Close();
+            Application.Exit();
+        }
     }
 }

@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  connexion:
+    container_name: chat_server
+    image: projet
+    env_file: 
+      - ./ProjetInfraB2/ProjetInfraB2/.env
+    ports:
+      - "${PORTSERV:-8888:8888}"
+    command: docker build -t projet -t ./ProjetInfraB2/ProjetInfraB2/Dockerfile . 
