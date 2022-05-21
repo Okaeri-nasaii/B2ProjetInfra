@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\source\\repos\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj": {}
+    "C:\\Users\\lucas\\source\\repos\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\source\\repos\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj": {
+    "C:\\Users\\lucas\\source\\repos\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj",
         "projectName": "ProjetInfraB2",
-        "projectPath": "C:\\Users\\lucas\\source\\repos\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj",
+        "projectPath": "C:\\Users\\lucas\\source\\repos\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\source\\repos\\ProjetInfraB2\\ProjetInfraB2\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\source\\repos\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3,16 +3,38 @@ using System.Threading;
 using System.Net.Sockets;
 using System.Text;
 using System.Collections;
-
+using System.IO;
 namespace ConsoleApplication1
 {
     class Program
     {
         public static Hashtable clientsList = new Hashtable();
 
+        public static string port = "8888";
+        public static void Load(string filePath)
+        {
+            if (!File.Exists(filePath))
+                return;
+
+            foreach (var line in File.ReadAllLines(filePath))
+            {
+                var parts = line.Split('=');
+
+                if (parts.Length != 2)
+                    continue;
+                if (parts[0] == "PORT")
+                {
+                    if (parts[1] != "")
+                    {
+                        port = parts[1];
+                    }
+                }
+            }
+        }
         static void Main(string[] args)
         {
-            TcpListener serverSocket = new TcpListener(8888);
+            Load(@"..\..\.env");
+            TcpListener serverSocket = new TcpListener(Convert.ToInt32(port));
             TcpClient clientSocket = default(TcpClient);
             int counter = 0;
 
