@@ -1,0 +1,15 @@
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Debug\net6.0\ProjetInfraB2.exe
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Debug\net6.0\ProjetInfraB2.deps.json
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Debug\net6.0\ProjetInfraB2.runtimeconfig.json
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Debug\net6.0\ProjetInfraB2.dll
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Debug\net6.0\ref\ProjetInfraB2.dll
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Debug\net6.0\ProjetInfraB2.pdb
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ProjetInfraB2.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ProjetInfraB2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ProjetInfraB2.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ProjetInfraB2.AssemblyInfo.cs
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ProjetInfraB2.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ProjetInfraB2.dll
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ref\ProjetInfraB2.dll
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ProjetInfraB2.pdb
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\obj\Debug\net6.0\ProjetInfraB2.genruntimeconfig.cache

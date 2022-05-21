@@ -1,0 +1,5 @@
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Release\net6.0\publish\ProjetInfraB2.exe
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Release\net6.0\publish\ProjetInfraB2.dll
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Release\net6.0\publish\ProjetInfraB2.deps.json
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Release\net6.0\publish\ProjetInfraB2.runtimeconfig.json
+C:\Users\lucas\source\repos\ProjetInfraB2\ProjetInfraB2\bin\Release\net6.0\publish\ProjetInfraB2.pdb

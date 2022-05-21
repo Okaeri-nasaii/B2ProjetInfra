@@ -1,0 +1,11 @@
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\bin\Debug\ChatAppInfraB2.exe.config
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\bin\Debug\ChatAppInfraB2.exe
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\bin\Debug\ChatAppInfraB2.pdb
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\obj\Debug\ChatAppInfraB2.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\obj\Debug\ChatAppInfraB2.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\obj\Debug\ChatAppInfraB2.Form1.resources
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\obj\Debug\ChatAppInfraB2.Properties.Resources.resources
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\obj\Debug\ChatAppInfraB2.csproj.GenerateResource.cache
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\obj\Debug\ChatAppInfraB2.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\obj\Debug\ChatAppInfraB2.exe
+C:\Users\lucas\source\repos\ChatAppInfraB2\ChatAppInfraB2\obj\Debug\ChatAppInfraB2.pdb
