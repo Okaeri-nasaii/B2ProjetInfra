@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {}
+    "C:\\Users\\louis\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\lucas\\source\\repos\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj",
+      "projectUniqueName": "C:\\Users\\louis\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj",
       "projectName": "ProjetInfraB2",
-      "projectPath": "c:\\Users\\lucas\\source\\repos\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\lucas\\source\\repos\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\obj\\",
+      "projectPath": "C:\\Users\\louis\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\ProjetInfraB2.csproj",
+      "packagesPath": "C:\\Users\\louis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\louis\\B2ProjetInfra\\ProjetInfraB2\\ProjetInfraB2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\louis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
       }
     }
   }

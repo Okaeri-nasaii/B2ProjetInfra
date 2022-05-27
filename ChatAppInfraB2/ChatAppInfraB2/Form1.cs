@@ -33,7 +33,7 @@ namespace ChatAppInfraB2
                     continue;
                 if (parts[0] == "IP_ADDRESS")
                 {
-                    
+
                     if (parts[1] != "")
                         ipServ = parts[1];
                 }
@@ -61,7 +61,7 @@ namespace ChatAppInfraB2
                 byte[] inStream = new byte[10025];
                 buffSize = inStream.Length;
                 serverStream.Read(inStream, 0, buffSize);
-                string returndata = System.Text.Encoding.ASCII.GetString(inStream);
+                string returndata = System.Text.Encoding.UTF8.GetString(inStream);
                 readData = "" + returndata;
                 msg();
             }
@@ -69,6 +69,7 @@ namespace ChatAppInfraB2
 
         private void msg()
         {
+            Console.WriteLine(readData);
             if (this.InvokeRequired)
                 this.Invoke(new MethodInvoker(msg));
             else
@@ -95,7 +96,7 @@ namespace ChatAppInfraB2
             byte[] outStream = System.Text.Encoding.ASCII.GetBytes(textBox2.Text + "$");
             serverStream.Write(outStream, 0, outStream.Length);
             serverStream.Flush();
-            msg();
+            //msg();
         }
 
         private void button3_Click(object sender, EventArgs e)
