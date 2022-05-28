@@ -81,12 +81,14 @@ namespace ConsoleApplication1
                 broadcastSocket = (TcpClient)Item.Value;
                 NetworkStream broadcastStream = broadcastSocket.GetStream();
                 Byte[] broadcastBytes = null;
+                foreach (string key in clientsList.Keys)
+                {
+                    Console.WriteLine(String.Format("{0}: {1}", key, clientsList[key]));
+                }
 
                 if (flag == true)
                 {
-                
                     broadcastBytes = Encoding.ASCII.GetBytes(uName + " says : " + msg);
-                    msg = "";
                 }
                 else
                 {
@@ -137,8 +139,7 @@ namespace ConsoleApplication1
                         dataFromClient = System.Text.Encoding.ASCII.GetString(bytesFrom);
                         dataFromClient = dataFromClient.Substring(0, dataFromClient.IndexOf("$"));
                         Console.WriteLine("From client - " + clNo + " : " + dataFromClient);
-                        rCount = Convert.ToString(requestCount);
-
+                        //rCount = Convert.ToString(requestCount);
                         Program.broadcast(dataFromClient, clNo, true);
                     }
                     catch (Exception ex)
